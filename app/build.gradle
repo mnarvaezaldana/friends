@@ -20,20 +20,10 @@ android {
         }
     }
 
-    signingConfigs {
-        release {
-            storeFile file(System.getenv("HOME")+"/friendskeys/key")
-            storePassword "dingos22P"
-            keyAlias "key0"
-            keyPassword "dingos22P"
-        }
-    }
-
     buildTypes {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
         }
     }
     compileOptions {

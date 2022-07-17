@@ -35,5 +35,5 @@ jobs:
           serviceAccountJson: service_account.json
           packageName: com.yucatancorp.fiends
           releaseFiles: app/build/outputs/bundle/release/app-release.aab
-          track: alpha
+          track: internal
           whatsNewDirectory: whatsNewDirectory/
